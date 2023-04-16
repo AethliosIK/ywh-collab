@@ -16,6 +16,7 @@ setup(
     packages=find_packages(),
     install_requires=["requests"],
     long_description=long_description,
+    long_description_content_type='text/markdown',
     url="https://github.com/AethliosIK/ywh-collab",
     classifiers=[
         "Programming Language :: Python",

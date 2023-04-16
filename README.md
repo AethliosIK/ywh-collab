@@ -29,7 +29,7 @@ Install from [pip](https://pypi.org/project/ywh-collab):
 It is possible to provide the JWT as an argument or to provide credentials in an interactive session to log in your Yes We Hack account.
 
 ```bash
-$ ywh-collab -h
+$ python3 -m ywh-collab -h
 usage: ywh-collab [-h] [-j JWT] -f FILENAME {export,compare}
 
 Yes We Hack private program comparator for hunters collaboration by Aethlios.
@@ -49,7 +49,7 @@ optional arguments:
 First, you can export the list of program IDs into `output.txt` file to share it with another hunter :
 
 ```bash
-ywh-collab -f output.txt export
+python3 -m ywh-collab -f output.txt export
 ```
 
 ### Compare
@@ -57,7 +57,7 @@ ywh-collab -f output.txt export
 In a second step, you can compare the list of program IDs of another hunter stored in `input.txt` file with your private programs in order to find common programs that accept hunters' collaboration.
 
 ```bash
-ywh-collab -f input.txt compare
+python3 -m ywh-collab -f input.txt compare
 ```
 
 ## Changelog
