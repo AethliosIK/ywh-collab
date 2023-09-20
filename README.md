@@ -61,4 +61,5 @@ python3 -m ywh-collab -f input.txt compare
 ```
 
 ## Changelog
+- v1.0.1 - Minor fix
 - v1.0.0 - Initial release
